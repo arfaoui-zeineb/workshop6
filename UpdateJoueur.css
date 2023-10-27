@@ -1,0 +1,59 @@
+/* Style du formulaire de modification de joueur */
+form {
+    width: 300px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #007BFF;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    display: block;
+    margin-top: 10px;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Style du message de résultat */
+#result-message {
+    text-align: center;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    display: none;
+    margin-top: 10px;
+}
+
+/* Style du message de succès */
+#result-message.success {
+    background-color: #28a745;
+}
+
+/* Style du message d'erreur */
+#result-message.error {
+    background-color: #dc3545;
+}
